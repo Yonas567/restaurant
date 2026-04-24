@@ -1,6 +1,5 @@
 'use client'
 
-import FullLogo from '@/app/(DashboardLayout)/layout/shared/logo/FullLogo'
 import CardBox from '../shared/CardBox'
 import Link from 'next/link'
 import { Label } from '@/components/ui/label'
@@ -13,8 +12,8 @@ export const Register = () => {
       <div className='h-screen w-full flex justify-center items-center bg-lightprimary'>
         <div className='md:min-w-[450px] min-w-max'>
           <CardBox>
-            <div className='flex justify-center mb-4'>
-              <FullLogo />
+            <div className='flex justify-center mb-4 text-2xl font-bold text-primary'>
+              TailwindAdmin
             </div>
             <p className='text-sm text-muted-foreground text-center mb-6'>
               Your Social Campaigns

@@ -17,6 +17,7 @@ type BoardOrder = {
   tableId: string;
   waiterId: string;
   status: string;
+  waiterAcceptedReady?: boolean;
   items: {
     id: string;
     menuItemId: string;
